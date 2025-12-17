@@ -111,45 +111,49 @@
                 </div>
             </div>
         </div> -->
-        <div class="info">
-            <div class="info-left">
-                <div class="car">
-                    <div><button class="card"><div><img src="./assets/icons8-credit-card-40.png" alt="" height="22px"></div> <div>Card</div></button></div>
+        <div class="payment-methods">
+            <div class="car">
+                <button class="card">
+                        <img src="./assets/icons8-credit-card-40.png" alt="" height="22px">
+                        <p>Card</p>
+                </button>
+            </div>
+            <div class="pay">
+                <button class="paypal">
+                    <img src="./assets/icons8-paypal-50.png" alt="" height="20px">
+                    <p>Paypal</p>
+                </button>
+            </div>
+        </div>
+        <div class="info-left">
+            <div class="card-number">
+                    <label for="card-no">Credit or debit card number</label>
+                    <input type="number" placeholder="---- ---- ---- ----" required>
+            </div>
+            <div class="expiry">
+                <div class="exp">
+                    <label for="">Expiry</label>
+                    <input type="number" placeholder="MM/YY" required>
                 </div>
-                <div class="card-number">
-                        <label for="card-no">Credit or debit card number</label>
-                        <input type="number" placeholder="---- ---- ---- ----" required>
-                </div>
-                <div class="country">
-                        <label for="country">Country</label>
-                        <select name="" id="">
-                            <option value="bangladesh">Bangladesh</option>
-                            <option value="usa">USA</option>
-                            <option value="canada">Canada</option>
-                            <option value="italy">Italy</option>
-                            <option value="germany">Germany</option>
-                        </select>
+                <div class="security">
+                    <label for="">Security Code</label>
+                    <input type="number" placeholder="123" required>
                 </div>
             </div>
-            <div class="info-right">
-                <div class="pay">
-                    <div><button class="paypal"><div><img src="./assets/icons8-paypal-50.png" alt="" height="20px"></div><div>Paypal</div></button></div>
-                </div>
-                <div class="expiry">
-                    <div class="exp">
-                        <label for="">Expiry</label>
-                        <input type="number" placeholder="MM/YY" required>
-                    </div>
-                    <div class="security">
-                        <label for="">Security Code</label>
-                        <input type="number" placeholder="123" required>
-                    </div>
-                </div>
-                <div class="postal">
-                    <label for="postal-code" class="lab">Postal Code</label>
-                    <input type="number" placeholder="" required>
-                </div>
-            </div>
+            <!-- <div class="postal">
+                <label for="postal-code" class="lab">Postal Code</label>
+                <input type="number" placeholder="" required>
+            </div> -->
+            <!-- <div class="country">
+                    <label for="country">Country</label>
+                    <select name="" id="">
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="italy">Italy</option>
+                        <option value="germany">Germany</option>
+                    </select>
+            </div> -->
         </div>
         <div class="order">
             <div class="rev"><button>Review Order</button></div>

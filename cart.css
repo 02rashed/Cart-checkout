@@ -3,10 +3,10 @@
 }
 body{
     background:rgba(98, 110, 130, 0.714);
+    padding: 64px;
 }
 .main{
     background-color: white;
-    margin:10px 180px 10px 180px;
     display:flex;
     flex-wrap: nowrap;
     gap:40px;
@@ -194,7 +194,7 @@ padding-top: 20px;
     flex-direction: column;
     gap:10px;
     padding-top:20px;
-    width:100%;
+    width:50%;
 }
 .rev button{
     font-size: 15px;
@@ -206,16 +206,23 @@ padding-top: 20px;
     border-radius:5px;
     margin-top:20px;
 }
-
-.info{
-    display:grid;
-    grid-template-columns: 50% 50%;
-    gap:20px;
+.info-left {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
 }
 .expiry{
     display:flex;
     gap:10px;
     padding-top:30px;
+    width: 50%;
+}
+.expiry div{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    width:50%;
 }
 .saf{
     display:flex;
@@ -230,4 +237,12 @@ padding-top: 20px;
 }
 .postal{
     padding-top:30px;
+}
+
+.payment-methods div {
+    width: 50%;
+}
+.payment-methods {
+    display: flex;
+    gap: 20px;
 }
