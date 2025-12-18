@@ -59,7 +59,7 @@
                     <label for="email" class="lab">Email Address</label>
                     <input type="email" placeholder="jane.doe@example.com" required>
                 </div>
-                <div class="name">
+                <div class="full-name">
                     <div class="first-name">
                         <label for="first-name" class="lab">First Name</label>
                         <input type="text" placeholder="Jane" required>
@@ -72,54 +72,28 @@
         </div>
         <div class="bill-info">
             <p class="bill light">Billing infromation</p>
-            <!-- <div class="info">
-                <div class="methods">
-                    <div><button class="card"><div><img src="./assets/icons8-credit-card-40.png" alt="" height="22px"></div> <div>Card</div></button></div>
-                    <div><button class="paypal"><div><img src="./assets/icons8-paypal-50.png" alt="" height="20px"></div><div>Paypal</div></button></div>
+        <div class="info">
+            <div class="methods">
+                <div class="card"><img src="./assets/icons8-credit-card-40.png" alt=""> <p>Card</p></div>
+                <div class="paypal"><img src="./assets/icons8-paypal-50.png" alt=""><p>PayPal</p></div>
+            </div>
+            <div class="number-exp-sec">
+                <div class="card-number">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" placeholder="•••• •••• •••• ••••" required>
                 </div>
-                <div class="card-details">
-                    <div class="card-number">
-                        <label for="card-no">Credit or debit card number</label>
-                        <input type="number" placeholder="---- ---- ---- ----" required>
+                <div class="exp-sec">
+                    <div class="exp-date">
+                        <label for="exp-date">Expiry Date</label>
+                        <input type="text" placeholder="MM/YY" required>
                     </div>
-                    <div class="exp">
-                        <div class="expiry">
-                            <label for="expiry">Expiry</label>
-                            <input type="number" placeholder="MM/YY" >
-                        </div>
-                        <div class="security">
-                            <label for="security-code">Security Code</label>
-                            <input type="number" placeholder="123" required>
-                        </div>
-                    </div>
-                </div>
-                <div class="location">
-                    <div class="country">
-                        <label for="country">Country</label>
-                        <select name="" id="">
-                            <option value="bangladesh">Bangladesh</option>
-                            <option value="usa">USA</option>
-                            <option value="canada">Canada</option>
-                            <option value="italy">Italy</option>
-                            <option value="germany">Germany</option>
-                        </select>
-                    </div>
-                    <div class="postal">
-                    <label for="postal-code" class="lab">Postal Code</label>
-                    <input type="number" placeholder="" required>
+                    <div class="security">
+                        <label for="security-code">Security Code</label>
+                        <input type="text" placeholder="123" required>
                     </div>
                 </div>
             </div>
-        </div> -->
-        <div class="info">
-            <div class="info-left">
-                <div class="car">
-                    <div><button class="card"><div><img src="./assets/icons8-credit-card-40.png" alt="" height="22px"></div> <div>Card</div></button></div>
-                </div>
-                <div class="card-number">
-                        <label for="card-no">Credit or debit card number</label>
-                        <input type="number" placeholder="---- ---- ---- ----" required>
-                </div>
+            <div class="location">
                 <div class="country">
                         <label for="country">Country</label>
                         <select name="" id="">
@@ -130,29 +104,13 @@
                             <option value="germany">Germany</option>
                         </select>
                 </div>
-            </div>
-            <div class="info-right">
-                <div class="pay">
-                    <div><button class="paypal"><div><img src="./assets/icons8-paypal-50.png" alt="" height="20px"></div><div>Paypal</div></button></div>
-                </div>
-                <div class="expiry">
-                    <div class="exp">
-                        <label for="">Expiry</label>
-                        <input type="number" placeholder="MM/YY" required>
-                    </div>
-                    <div class="security">
-                        <label for="">Security Code</label>
-                        <input type="number" placeholder="123" required>
-                    </div>
-                </div>
                 <div class="postal">
-                    <label for="postal-code" class="lab">Postal Code</label>
-                    <input type="number" placeholder="" required>
+                    <label for="postal-code">Postal Code</label>
+                    <input type="text" placeholder="Postal Code">
                 </div>
             </div>
-        </div>
         <div class="order">
-            <div class="rev"><button>Review Order</button></div>
+            <button>Review Order</button>
             <div class="safe">
                 <div class="lock"><img src="" alt=""></div>
                 <div class="saf">
