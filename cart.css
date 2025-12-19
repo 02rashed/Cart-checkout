@@ -27,6 +27,7 @@ body{
     display:flex;
     gap:20px;
     min-width:50%;
+    background-color: #f5f7fa;
     border: var(--box-border);
     padding:20px;
     border-radius: 5px;
@@ -109,7 +110,7 @@ body{
     padding:20px;
     border-radius: 5px;
     font-size: small;
-    border: var(--box-border);
+    border: 1px solid #e4e7eb;
 }
 .profile-pic img{
     height:50px;
@@ -122,9 +123,9 @@ body{
 }
 .reviewer{
     display:flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items:center;
-    gap:10px;
 }
 .stars img{
     width:65px;
@@ -206,12 +207,21 @@ label { display: block;
 }
 input{
     padding:10px 5px;
-    border:2px solid grey;
+    border: 1px solid #e2e4e5 !important;
     border-radius:5px;
 }
-input:hover{
-    color:#2872fa;
+select{
+    border: 1px solid #e2e4e5 !important;
+    font-size:15px;
+     color:#808283;
+
 }
+::placeholder{
+ color:#808283;
+ padding:10px;
+ font-size:15px;
+}
+
 .order{
     margin-top:40px;
 }   
